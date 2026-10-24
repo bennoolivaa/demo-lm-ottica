@@ -1,6 +1,32 @@
 /* Catalogo dimostrativo: foto prese dal profilo Instagram @lm_ottica.
    Prezzi e descrizioni sono indicativi: vanno confermati dal negozio. */
 window.PRODOTTI = [
+  /* selezione su bianco: foto dimostrative (Unsplash, licenza libera) da sostituire con le foto ufficiali dei marchi */
+  { id: 'panto-tartaruga', marca: 'Selezione Lm', nome: 'Panto tartarugato', tipo: 'vista', prezzo: 189, bianco: true,
+    colore: 'Acetato tartaruga sfumato, made in Italy', foto: ['b-panto-tartaruga'], nuovo: true,
+    desc: 'Panto morbido in acetato tartarugato, più chiaro verso il basso. Aste sottili con le perline in metallo: il classico che sta bene a quasi tutti.' },
+  { id: 'tondo-sole-tartaruga', marca: 'Selezione Lm', nome: 'Tondo da sole tartaruga', tipo: 'sole', prezzo: 210, bianco: true,
+    colore: 'Tartaruga, lenti grigio scuro', foto: ['b-tondo-sole-tartaruga'], nuovo: true,
+    desc: 'Tondo in acetato tartarugato con lenti scure: retrò, deciso, da portare tutto l\'anno.' },
+  { id: 'club-acetato-metallo', marca: 'Selezione Lm', nome: 'Club acetato e metallo', tipo: 'sole', prezzo: 175, bianco: true,
+    colore: 'Nero e argento, lenti verdi', foto: ['b-club'],
+    desc: 'La forma “browline”: sopracciglio in acetato nero, cerchio in metallo e lenti verdi. Un’icona dagli anni ’50.' },
+  { id: 'squadrato-nero', marca: 'Selezione Lm', nome: 'Squadrato nero', tipo: 'sole', prezzo: 165, bianco: true,
+    colore: 'Nero lucido, lenti verdi', foto: ['b-squadrato-nero'],
+    desc: 'Squadrato in acetato nero lucido, lenti verdi classiche. Il primo occhiale da sole che tutti dovrebbero avere.' },
+  { id: 'tondo-lenti-rosse', marca: 'Selezione Lm', nome: 'Tondo lenti rosse', tipo: 'sole', prezzo: 145, bianco: true,
+    colore: 'Metallo nero, lenti rosse specchiate', foto: ['b-tondo-rosso'],
+    desc: 'Tondo in metallo sottile con lenti specchiate rosse e doppio ponte. Per l\'estate e per chi non passa inosservato.' },
+  { id: 'tondo-metallo-sfumato', marca: 'Selezione Lm', nome: 'Tondo in metallo', tipo: 'sole', prezzo: 135, bianco: true,
+    colore: 'Oro, lenti marroni sfumate', foto: ['b-tondo-metallo'],
+    desc: 'Montatura tonda in metallo dorato con lenti sfumate marroni. Leggerissimo.' },
+  { id: 'cristallo-trasparente', marca: 'Selezione Lm', nome: 'Cristallo trasparente', tipo: 'vista', prezzo: 159, bianco: true,
+    colore: 'Acetato trasparente', foto: ['b-cristallo'],
+    desc: 'Acetato completamente trasparente: c’è, ma quasi non si vede. Perfetto con le lenti graduate.' },
+  { id: 'maschera-arancio', marca: 'Selezione Lm', nome: 'Maschera specchiata arancio', tipo: 'sole', prezzo: 199, bianco: true,
+    colore: 'Nero, lente unica specchiata arancio', foto: ['b-maschera-arancio'],
+    desc: 'Lente unica a maschera, specchiata arancio. Sportivo ma da città.' },
+
   { id: 'tom-ford-panto-tartaruga', marca: 'Tom Ford', nome: 'Panto con ponte a chiave', tipo: 'vista', prezzo: 355,
     colore: 'Tartaruga scuro', foto: ['tomford-4'], nuovo: true,
     desc: 'Forma panto importante, ponte a chiave e la “T” metallica sulle cerniere. Un classico Tom Ford che dà carattere al viso.' },
